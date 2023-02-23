@@ -6,21 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sinopse.css">
     <link rel="stylesheet" href="leitura.css">
+    <link rel="stylesheet" href="sinopsemobile.css">
     <title>Document</title>
 </head>
 <body>
     <header id="header">
         <img src="img/Logo.png" alt="">
-        <a href="index.html"><button>Voltar</button></a>
+        <a href="index.html"><button class="botao">Voltar</button></a>
     </header>
     <main id="main">
+
         <div class="capa"></div>
-        <h1>Titulo</h1>
-        <div class="sinopse">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos sint iure, quas veniam possimus, temporibus ducimus deleniti nesciunt, quam magnam sapiente vel officia maiores? Eos voluptates esse vero excepturi pariatur?</div>
-        <a href="paginaleitura.html"><button>Ler agora</button></a>
-        <button class="button">comentarios</button>
+
+        <section class="sinopseConteudo">
+            <div class="image">
+                <img class="silencio" src="img/o-silencio-das-aguas.webp" alt="">
+                <a href="paginaleitura.html"><button class="button">Ler agora</button></a>
+            </div>
+            
+            <div>
+                <h1 class="h1"> O silêncio das águas</h1>
+                
+                <div class="sinopse">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos sint iure, quas veniam possimus, temporibus ducimus deleniti nesciunt, quam magnam sapiente vel officia maiores? Eos voluptates esse vero excepturi pariatur?</div>
+                
+            </div>
+        </section>
+
+
+        <div class="comentario">
+            <button class="botao2">comentários</button>
+        </div>
+
+
+        
+        
+        
     </main>
-    <footer id="footer">
+    <footer class="footer">
         <h3>WriteBook</h3>
     </footer> 
 </body>
