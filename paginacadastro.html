@@ -4,18 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Página de Cadastro</title>
 </head>
 <body>
 
     <header id="header">
         <img src="img/Logo.png" alt="logo">
-        <link rel="stylesheet" href="index.html">
+        <a href="index.html"> <button>Voltar</button> </a>
     </header>
 
-    <main></main>
+    <main id="main">
+        
+        <h1>Assinatura</h1>
 
-    <footer></footer>
+        <form action="" method="post">
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="E-mail" required minlength="3" maxlength="25" placeholder="informe o seu E-mail">
+            <label for="Plano">Plano</label>
+            <select name="" id="">
+                <option value="" disabled>Selecione um plano</option>
+                <option value="">Plano 1</option>
+                <option value="">Plano 2</option>
+                <option value="">Plano 3</option>
+            </select>
+            <button type="submit">Seja asssinante!</button>
+        </form>
+    </main>
+
+    <footer id="footer">
+
+        <div><p>Plano 1: R$7,00</p></div>
+        <div><P>Plano 2: R$14,00</P></div>
+        <div><p>Plano 3: R$21,00</p></div>
+    </footer>
 
 </body>
 </html>
