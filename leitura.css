@@ -13,6 +13,9 @@
 
 .footer{
     background-color: #40E0D0;
+    padding: 20px;
+    text-align: right;
+     
 }
 
 #header img{
@@ -21,4 +24,36 @@
 
 .botao{
     padding: 10px;
+    border-radius: 10px;
 }
+
+#main{
+    background-color: #7E7C7C;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 80vh;
+}
+
+#main .h1 , .h2 , .footer{
+    color: #E0D890;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.caixa{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+#main .h1 , .h2{
+    margin: 20px;
+}
+
+.nome{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 77px;
+}
+
