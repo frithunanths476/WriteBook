@@ -3,7 +3,14 @@
     padding: 0px;
 }
 
-#header {
-    background-color: green;
-    
+#main {
+    background-color: #7E7C7C;
+    color: #E0D890;
+}
+
+
+
+#footer {
+    background-color: #40E0D0;
+    color: #FFFFFF;
 }
