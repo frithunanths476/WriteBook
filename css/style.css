@@ -1,0 +1,10 @@
+@import url(cadastro.css);
+@import url(leitura.css);
+@import url(livros.css);
+@import url(sinopse.css);
+@import url(index.css);
+
+@import url(mobile/cadastromobile.css);
+@import url(mobile/livrosmobile.css);
+@import url(mobile/sinopsemobile.css);
+@import url(mobile/mobile.css);
