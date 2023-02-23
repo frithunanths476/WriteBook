@@ -1,0 +1,43 @@
+@media (max-width: 450px) {
+    .form-formulario-email,
+    .form-formulario-submit,
+    .form-formulario-senha {
+        width: 100%;
+    }
+
+    main #form #form-formulario form input {
+        display: block;
+        padding: 8px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        border-radius: 10px;
+        max-width: 425px;
+        margin-bottom: 10px;
+        width: 93%;
+    }
+
+    main #form #form-formulario form button {
+        padding: 8px;
+        border: none;
+        background-color: #a5f0e7f6;
+        color: black;
+        border-radius: 10px;
+        max-width: 380px;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+     #rodape-inicio{
+        display: block;
+        padding: 15px
+    }
+}
+
+@media (max-width: 393px){
+    .rodape-contatos {
+        display: block;
+    }
+}
