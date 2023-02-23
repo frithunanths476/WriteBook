@@ -3,3 +3,11 @@
         display: block;
 }
 }
+
+@media (max-width: 410px) {
+    .ver-mais {
+        float: right;
+        margin-top: 20px;
+        display: block;
+    }
+}
