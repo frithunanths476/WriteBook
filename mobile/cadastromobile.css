@@ -1,0 +1,14 @@
+@media (max-width: 616px){
+    .formAssinatura input, .formAssinatura select{
+        max-width: 616;
+        width: 100%;
+    }
+}
+
+@media (max-width: 285px){
+    .botwm{
+        max-width: 285px;
+        min-height: 60px;
+        width: 100%;
+    }
+}
